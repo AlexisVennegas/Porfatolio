@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Porfatolio/static/css/main.e10ec78f.css",
+    "main.js": "/Porfatolio/static/js/main.815e75c3.js",
+    "index.html": "/Porfatolio/index.html",
+    "main.e10ec78f.css.map": "/Porfatolio/static/css/main.e10ec78f.css.map",
+    "main.815e75c3.js.map": "/Porfatolio/static/js/main.815e75c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e10ec78f.css",
+    "static/js/main.815e75c3.js"
+  ]
+}
