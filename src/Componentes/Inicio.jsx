@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import nv from "../img/novio.png";
 import { Link } from "react-router-dom";
+import imagenPOrtada from '../img/alexis.png'
 
 
 export const Inicio = () => {
@@ -77,7 +78,7 @@ export const Inicio = () => {
         </div>
       </div>
       <div className="imagen-container">
-        {/* <img src={} alt="perfil imagen" className="imagePerfil" /> */}
+        <img src={imagenPOrtada} alt="perfil imagen" className="imagePerfil" />
       </div>
     </section>
   );

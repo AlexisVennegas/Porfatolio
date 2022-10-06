@@ -83,7 +83,10 @@
 }
 
 .imagePerfil {
-    width: 100px;
+    width: 700px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
 }
 
 
