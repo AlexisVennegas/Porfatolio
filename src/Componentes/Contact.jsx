@@ -1,7 +1,11 @@
 import React from 'react'
+import { HomeButton } from "./HomeButton";
 
 export const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <HomeButton />
+
+    </div>
   )
 }

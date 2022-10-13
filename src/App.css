@@ -1,11 +1,16 @@
 @import url(./Style/Section.css);
 @import url(./Style/Works.css);
+@import url(./Style/Portal.css);
+@import url(./Style/ButtonHome.css);
+@import url(./Style/About.css);
+@import url(./Style/Frame.css);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 body {
-  background-color: #000;
+  background-color: #000 !important;
 }

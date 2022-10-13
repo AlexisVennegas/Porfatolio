@@ -1,0 +1,12 @@
+.container-trabajos {
+    display: flex;
+}
+.portal-container {
+    margin: 100px 20px ;
+    width: 50%;
+}
+.informacion-container {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}

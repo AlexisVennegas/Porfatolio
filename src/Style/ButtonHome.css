@@ -1,0 +1,36 @@
+.container-button-home {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 30px;
+    transition: .2s;
+}
+.icon-button-home {
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+.linkhomeasd > p {
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    transition: .2s;
+    cursor: pointer;
+    margin: 9px 0 0 10px;
+}
+.linkhomeasd:hover {
+    padding-right: 48px;
+    transition: .2s;
+    font-size: 40px;
+}
+
+a {
+    color: white !important;
+}
+
+.linkhomeasd {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
