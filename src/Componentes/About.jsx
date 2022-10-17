@@ -15,7 +15,7 @@ export const About = () => {
       clase: "skill-per css",
     },
     {
-      lenguaje: "bootstrap",
+      lenguaje: "Bootstrap",
       lvl: "80%",
       clase: "skill-per bootstrap",
     },
@@ -38,7 +38,7 @@ export const About = () => {
     {
       lenguaje: "GitHub",
       lvl: "80%",
-      clase: "skill-per sql",
+      clase: "skill-per github",
     },
   ];
 
@@ -52,6 +52,7 @@ export const About = () => {
       </div>
     </div>
   ));
+
 
   return (
     <div>
@@ -68,10 +69,12 @@ export const About = () => {
           knowledge in agile methodologies.
         </p>
       </div>
+      <h1 className="title-text-progress"> Technologies </h1>
+
       <div className="container-progress" data-aos="zoom-in">
-        <h1 className="title-text-progress"> Technologies </h1>
         {SkillsMap}
       </div>
+      <h1 className="title-text-progress"> FrameWorks </h1>
       <div className="frameworks-container" data-aos="zoom-in">
         <Frame libreria="Laravel" imagen="laravelimg" li1='Composer' li2='Blade' li3='Artisan' li4='Json' li5='POO' li6='Routes'/>
         <Frame libreria="React" imagen="reactimg" li1='ReactDOM' li2='npm' li3='Components' li4='props' li5='Events' li6='Json'/>

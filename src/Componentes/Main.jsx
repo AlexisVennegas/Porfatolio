@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import imagenPOrtada from "../img/alexis.png";
 
-export const Inicio = () => {
+export const Main = () => {
   const [showText, setShowText] = useState(false);
   const [showTextDos, setShowTextDos] = useState(false);
   const [showTextTres, setShowTextTres] = useState(false);

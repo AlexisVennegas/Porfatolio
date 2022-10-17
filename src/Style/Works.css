@@ -1,7 +1,9 @@
+@import url(./MQ/MediaQWorks.css);
+
 .Works-page-container {
-    background-color: black;
     width: 100%;
     height:762px;
+    
 }
 .work-one {
     width: 80%;
@@ -9,13 +11,16 @@
     display: flex;
 }
 .work-uno {
-    width: 500px;
+    width: 100%;
     cursor: pointer;
 }
 
 .emoji-flecha {
     font-size: 29px;
     margin-right: 10px;
+}
+.iconWeb {
+    font-size: 25px; 
 }
 
 .AfroBook, .DogCat, .GeekyGram, .music-io, .SuperMarket {
@@ -92,4 +97,18 @@
 .prueba {
     border: 1px solid white;
     width: 30%;
+}
+.containercards {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.pruebaasd {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    margin: 40px 0 ;
 }

@@ -4,6 +4,7 @@
 @import url(./Style/ButtonHome.css);
 @import url(./Style/About.css);
 @import url(./Style/Frame.css);
+@import url(./Style/Cards.css);
 * {
   margin: 0;
   padding: 0;
