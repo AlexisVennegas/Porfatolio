@@ -1,22 +1,50 @@
-.titleContact-container > h1 {
+.container-contact > h1 {
     color: #fff;
     text-align: center;
-    font-size: 90px;
-}
-
-.list-socialNetworks {
-    border: 1px solid white;
-    display: flex;
-    width: 50%;
-    font-size: 36px;
-    margin: 30px 70px;
-}
-.text-socialNetworks {
-    padding: 0 16px;
+    font-size: 100px;
     font-weight: 700;
+    transition: .2s;
+}
+.NameContact{
+    margin: 0 12px;
+    cursor: pointer;
+    transition: .2s;
+}
+.NameContact-v{
+    margin-left: 100px;
+    transition: .2s;
+    cursor: pointer;
 }
 
-.contact-v {
-    position: relative;
-    left: 47px;
+.contactOne, .contactTwo, .contactThre, .contactFour {
+    margin: 50px 100px;
+    font-size: 40px;
+    color: white;   
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    transition: .2s;
+}
+.contactTwo-v, .contactOne-v, .contactThre-v, .contactFour-v {
+    margin: 50px 140px;
+    font-size: 40px;
+    color: white;   
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    transition: .2s;
+}
+.contactOne-v {
+    color: #FBBC05;
+}
+.contactTwo-v {
+    color: rgb(9,97,184);
+}
+
+.contactThre-v {
+    color: rgb(51,0,99);
+}
+
+.contactFour-v  {
+    color: rgb(247, 119, 55);
 }

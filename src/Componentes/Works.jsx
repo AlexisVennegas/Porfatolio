@@ -105,7 +105,7 @@ export const Works = () => {
     //   />
     // </div>
 
-    <div className="card" key={Trabajos.titulo}>
+    <div className="card" key={Trabajos.descrp}>
       <div className="card-img">
         <img
           className={Trabajos.clase}

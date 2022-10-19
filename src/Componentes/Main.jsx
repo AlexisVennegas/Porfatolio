@@ -76,7 +76,11 @@ export const Main = () => {
         </div>
       </div>
       <div className="imagen-container puff-in-center">
-        <img src={imagenPOrtada} alt="perfil imagen" className="imagePerfil focus-in-contract" />
+        <img
+          src={imagenPOrtada}
+          alt="perfil imagen"
+          className="imagePerfil focus-in-contract"
+        />
       </div>
     </section>
   );
