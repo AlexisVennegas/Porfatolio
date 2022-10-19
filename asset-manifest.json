@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/css/main.8d6a629b.css",
-    "main.js": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/js/main.b2a9b104.js",
-    "static/media/TrabajoTres.png": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/media/TrabajoTres.736a4d56e8fec88ceff4.png",
-    "static/media/TrabajoDos.png": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/media/TrabajoDos.7a8859ec3b99034b0722.png",
-    "static/media/alexis.png": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/media/alexis.dadd0023f791c8ec155d.png",
-    "static/media/TrabajoUno.png": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/media/TrabajoUno.95b2d9740a7166332cf7.png",
-    "static/media/reactimg.png": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/media/reactimg.e126fa11bc5cb84a52db.png",
-    "index.html": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/index.html",
-    "main.8d6a629b.css.map": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/css/main.8d6a629b.css.map",
-    "main.b2a9b104.js.map": "/npm%20install%20--save%20gh-pageshub.io/Porfatolio/static/js/main.b2a9b104.js.map"
+    "main.css": "/AlexisVennegas/static/css/main.690d5b9d.css",
+    "main.js": "/AlexisVennegas/static/js/main.3b87ebba.js",
+    "static/media/TrabajoTres.png": "/AlexisVennegas/static/media/TrabajoTres.736a4d56e8fec88ceff4.png",
+    "static/media/TrabajoDos.png": "/AlexisVennegas/static/media/TrabajoDos.7a8859ec3b99034b0722.png",
+    "static/media/alexis.png": "/AlexisVennegas/static/media/alexis.dadd0023f791c8ec155d.png",
+    "static/media/TrabajoUno.png": "/AlexisVennegas/static/media/TrabajoUno.95b2d9740a7166332cf7.png",
+    "static/media/reactimg.png": "/AlexisVennegas/static/media/reactimg.e126fa11bc5cb84a52db.png",
+    "index.html": "/AlexisVennegas/index.html",
+    "main.690d5b9d.css.map": "/AlexisVennegas/static/css/main.690d5b9d.css.map",
+    "main.3b87ebba.js.map": "/AlexisVennegas/static/js/main.3b87ebba.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d6a629b.css",
-    "static/js/main.b2a9b104.js"
+    "static/css/main.690d5b9d.css",
+    "static/js/main.3b87ebba.js"
   ]
 }
