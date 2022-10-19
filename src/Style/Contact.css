@@ -1,0 +1,22 @@
+.titleContact-container > h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 90px;
+}
+
+.list-socialNetworks {
+    border: 1px solid white;
+    display: flex;
+    width: 50%;
+    font-size: 36px;
+    margin: 30px 70px;
+}
+.text-socialNetworks {
+    padding: 0 16px;
+    font-weight: 700;
+}
+
+.contact-v {
+    position: relative;
+    left: 47px;
+}
