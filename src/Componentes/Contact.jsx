@@ -44,8 +44,8 @@ export const Contact = () => {
     <section className="container-contact">
       <HomeButton />
       <h1>Contact</h1>
-      <div className="seccionContainer-contacOne">
-        <div data-aos="fade-right">
+      <div className="seccionContainer-contacOne"  data-aos="fade-right">
+        <div>
         <div
           className={viewText ? "contactOne-v" : "contactOne"}
           onMouseEnter={ShowTextMail}

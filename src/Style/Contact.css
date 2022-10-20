@@ -47,4 +47,5 @@
 
 .contactFour-v  {
     color: rgb(247, 119, 55);
+    opacity: none !important;
 }

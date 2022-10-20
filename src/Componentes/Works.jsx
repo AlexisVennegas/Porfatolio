@@ -97,13 +97,13 @@ export const Works = () => {
   // contenedore de las cards
 
   const TrabajosMap = Trabajos.map((Trabajos) => (
-    // <div className="work-one foro" key={Trabajos.titulo} onClick={Desplegable}>
     //   <img
     //     className={Trabajos.clase}
     //     alt={Trabajos.titulo}
     //     src={Trabajos.imagen}
     //   />
-    // </div>
+    // </div>  // <div className="work-one foro" key={Trabajos.titulo} onClick={Desplegable}>
+  
 
     <div className="card" key={Trabajos.descrp}>
       <div className="card-img">

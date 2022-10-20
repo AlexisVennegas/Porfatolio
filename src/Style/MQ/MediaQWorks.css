@@ -10,7 +10,7 @@
         transition: box-shadow .3s ease-in-out;
     }
 }
-@media (width <=  750px) {
+@media (width <= 750px) {
 
     .containercards {
         display: flex;
