@@ -26,7 +26,7 @@
 .container-progress {
     position: relative;
     max-width: 500px;
-    width: 100%;
+    width: 92%;
     margin: 60px auto;
     border: 1px solid white;
     border-radius: 7px;
@@ -172,6 +172,27 @@
     background-color: white;
     transform: translateX(-50%) rotate(45deg);
 }
+.form-container {
+
+    border: 1px solid white;
+        width: 60%;
+        display: flex;
+        margin: 100px auto;
+        align-items: center;
+        justify-content: center;
+}
+.form-control-container > label {
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.form-control-container {
+
+    display: flex;
+    flex-direction: column;
+}
+
 
 @media (width <= 600px) {
 
