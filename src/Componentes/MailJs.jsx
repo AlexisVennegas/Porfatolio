@@ -17,9 +17,9 @@ export const MailJs = () => {
     <div className='form-container'>
         <form onSubmit={sendEmail} className='form-control-container'>
             <label>Name</label>
-            <input type="text" name='user_name'  className='nameContact'/>
+            <input type="text" name='user_name'  className='nameContact' required/>
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input type="email" name="user_email" required/>
             <label>Message</label>
             <textarea name="user_message" id="" cols="30" rows="10"></textarea> 
             <button>Send</button>

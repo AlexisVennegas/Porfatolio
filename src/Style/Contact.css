@@ -18,7 +18,7 @@
 
 .contactOne, .contactTwo, .contactThre, .contactFour, .contactFive {
     margin: 50px 100px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;   
     display: flex;
     align-items: flex-end;
@@ -27,7 +27,7 @@
 }
 .contactTwo-v, .contactOne-v, .contactThre-v, .contactFour-v, .contactFive-v {
     margin: 50px 140px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;   
     display: flex;
     align-items: flex-end;
@@ -70,7 +70,7 @@
         text-align: justify;
     }
     .contactOne, .contactTwo, .contactThre, .contactFour, .contactFive {
-        margin: 36px 11px;
+        margin: 36px 36px;
         font-size: 23px;
         color: white;
         display: flex;
@@ -83,6 +83,30 @@
         cursor: pointer;
         transition: .2s;
         font-size: 22px;
+    }
+    .contactTwo-v, .contactOne-v, .contactThre-v, .contactFour-v, .contactFive-v {
+        margin: 36px 45px;
+        font-size: 23px;
+        color: white;   
+        display: flex;
+        align-items: flex-end;
+        width: 80%;
+        transition: .2s;
+    }
+    .contactOne-v {
+        color: #FBBC05;
+    }
+    .contactTwo-v {
+        color: rgb(9,97,184);
+    }
+    
+    .contactThre-v {
+        color: rgb(51,0,99);
+    }
+    
+    .contactFour-v  {
+        color: rgb(247, 119, 55);
+        opacity: none !important;
     }
     
     

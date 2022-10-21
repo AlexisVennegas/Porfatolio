@@ -7,8 +7,6 @@ import TrabajoCuatro from "../img/ConjuntoTrabajosDos/TrabajoUno.png";
 import TrabajoCinco from "../img/ConjuntoTrabajosDos/TrabajoDos.png";
 import TrabajoSeis from "../img/ConjuntoTrabajosDos/TrabajoTres.png";
  
-
-
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { SiPhp } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
@@ -149,7 +147,7 @@ export const Works = () => {
   ));
 
   const trabajosDosMap = trabajosDos.map((trabajosDos) => (
-    <div className="card" key={Trabajos.titulo}>
+    <div className="card" key={trabajosDos.descrp}>
       <div className="card-img">
         <img
           className={trabajosDos.clase}
@@ -187,7 +185,7 @@ export const Works = () => {
   ));
 
   const trabajosTresMap = trabajosTres.map((trabajosTres) => (
-    <div className="card" key={Trabajos.titulo}>
+    <div className="card" key={trabajosTres.descrp}>
       <div className="card-img">
         <img
           className={trabajosTres.clase}

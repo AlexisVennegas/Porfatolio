@@ -16,3 +16,8 @@
 body {
   background-color: #000 !important;
 }
+
+p::selection, h1::selection, input::selection, label::selection, span::selection, img::selection, h2::selection, li::selection {
+ background-color: white;
+ opacity: 0;
+}
