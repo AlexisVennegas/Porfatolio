@@ -1,17 +1,17 @@
 import React from 'react'
 import emailjs from "@emailjs/browser";
-
+import { Toaster, toast } from "react-hot-toast";
 
 export const MailJs = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_vcnvjck', 'template_4c65twn', e.target, 'eO7kwrWdGkirDKobd')
-        .then(response => console.log(response))
+        .then(response => toast("Email sent successfully", {position: "top-center"}))
         .catch(error => console.log(error))
 
     }
-
+    <Toaster />
 
   return (
     <div className='form-container'>
