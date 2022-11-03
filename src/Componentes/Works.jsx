@@ -8,7 +8,6 @@ import TrabajoCuatro from "../img/ConjuntoTrabajosDos/TrabajoUno.png";
 import TrabajoCinco from "../img/ConjuntoTrabajosDos/TrabajoDos.png";
 import TrabajoSeis from "../img/ConjuntoTrabajosDos/TrabajoTres.png";
 import  Modal  from "./Modal";
-import GifUno from '../Assets/Gif/captureUno.gif'
 
 import { AiFillGithub } from "react-icons/ai"; 
 import { TbCloudFog } from "react-icons/tb"; 
@@ -325,7 +324,7 @@ export const Works = () => {
               </div>
               <div className="contenido-imagen-proyecto">
                 <img
-                  src={GifUno}
+                  src={TrabajoUno}
                   alt="proyectoForo"
                   className="proyecto-img img-foro"
                 />
