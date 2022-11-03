@@ -1,6 +1,7 @@
 import React from 'react'
 import emailjs from "@emailjs/browser";
 import { Toaster, toast } from "react-hot-toast";
+import '../Style/Inputs.css'
 
 export const MailJs = () => {
 
@@ -14,18 +15,49 @@ export const MailJs = () => {
     <Toaster />
 
   return (
-    <div className='form-container'>
-        <form onSubmit={sendEmail} className='form-control-container'>
-            <label>Name</label>
-            <input type="text" name='user_name'  className='nameContact' required/>
-            <label>Email</label>
-            <input type="email" name="user_email" required/>
-            <label>Message</label>
-            <textarea name="user_message" id="" cols="30" rows="10"></textarea> 
-            <button>Send</button>
-        </form>
+    <div className="form-container">
+      <form onSubmit={sendEmail} className="form-control-container">
+        <div class="form__group field">
+          <input
+            name="user_name"
+            required
+            placeholder="Name"
+            className="nameContact form__field"
+            type="text"
+          />
+          <label class="form__label" for="name">
+            Name
+          </label>
+        </div>
+        <div class="form__group field">
+          <input
+            name="user_email"
+            required
+            placeholder="Name"
+            className="nameContact form__field"
+            type="email"
+          />
+          <label class="form__label" for="name">
+            Email
+          </label>
+        </div>
+        <div class="form__group field">
+          <textarea
+            name="user_message"
+            required
+            placeholder="Name"
+            className="nameContact form__field"
+            type="email"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <label class="form__label" for="name">
+            Message
+          </label>
+        </div>
 
-
+        <button>Send</button>
+      </form>
     </div>
-  )
+  );
 }

@@ -5,6 +5,81 @@
     height:762px;
     
 }
+.Works-page-container > h1 {
+        font-size: 50px;
+    color: white;
+    /* margin: 32px 197px; */
+    text-align: center;
+    font-weight: 800;
+
+}
+.Fathertitle {
+    font-size: 50px;
+    color: white;
+
+    text-align: center;
+    font-weight: 800;
+
+}
+
+
+.content-title-project {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 11px;
+    font-size: 37px;
+    color: white;
+}
+.content-info-project-show {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    display: block !important;
+}
+
+.button_close {
+    font-size: 20px;
+}
+.button_close:hover {
+    font-size: 20px;
+    color: red;
+    transition: .4s;
+}
+.title {
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.content-info-project {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.title-project {
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+   
+}
+.button-despl-info {
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.button-despl-info:hover {
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 50%;
+    padding: 5px 3px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+
+
 .work-one {
     width: 80%;
     margin: 50px auto;

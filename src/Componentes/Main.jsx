@@ -38,6 +38,7 @@ export const Main = () => {
           onMouseLeave={titleHIdden}
         >
           <Link to="Works" className="container-titleUno">
+          <h2 className={showText ? "titulo-v" : "tituloCuatro"}>Works</h2>
             {showText ? (
               <h1 className="tituloCuatro">Works</h1>
             ) : (
@@ -53,6 +54,7 @@ export const Main = () => {
           className="container-titleDos"
         >
           <Link to="About" className="container-titleUno">
+          <h2 className={showText ? "titulo-v" : "titlecinco"}>About</h2>
             {showTextDos ? (
               <h1 className="titlecinco">About</h1>
             ) : (
@@ -67,6 +69,7 @@ export const Main = () => {
           onMouseLeave={titleHiddenTres}
         >
           <Link to="Contact" className="container-titleUno">
+          <h2 className={showText ? "titulo-v" : "titleseis"}>Contact</h2>
             {showTextTres ? (
               <h1 className="titleseis">Contact</h1>
             ) : (
@@ -75,11 +78,11 @@ export const Main = () => {
           </Link>
         </div>
       </div>
-      <div className="imagen-container puff-in-center">
+      <div className="imagen-container" data-aos="fade-left"  data-aos-duration="2000">
         <img
           src={imagenPOrtada}
-          alt="perfil imagen"
-          className="imagePerfil focus-in-contract"
+          alt="perfil-imagen"
+          className="imagePerfil"
         />
       </div>
     </section>
