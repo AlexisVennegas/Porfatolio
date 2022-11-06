@@ -17,7 +17,7 @@ export const MailJs = () => {
   return (
     <div className="form-container">
       <form onSubmit={sendEmail} className="form-control-container">
-        <div class="form__group field">
+        <div className="form__group field">
           <input
             name="user_name"
             required
@@ -25,11 +25,11 @@ export const MailJs = () => {
             className="nameContact form__field"
             type="text"
           />
-          <label class="form__label" for="name">
+          <label className="form__label" htmlFor="name">
             Name
           </label>
         </div>
-        <div class="form__group field">
+        <div className="form__group field">
           <input
             name="user_email"
             required
@@ -37,11 +37,11 @@ export const MailJs = () => {
             className="nameContact form__field"
             type="email"
           />
-          <label class="form__label" for="name">
+          <label className="form__label" htmlFor="name">
             Email
           </label>
         </div>
-        <div class="form__group field">
+        <div className="form__group field">
           <textarea
             name="user_message"
             required
@@ -51,7 +51,7 @@ export const MailJs = () => {
             cols="30"
             rows="10"
           ></textarea>
-          <label class="form__label" for="name">
+          <label className="form__label" htmlFor="name">
             Message
           </label>
         </div>

@@ -3,13 +3,11 @@ import styled from "styled-components";
 import TrabajoUno from "../img/ConjutoTrabajosUno/TrabajoUno.png";
 import TrabajoDos from "../img/ConjutoTrabajosUno/TrabajoDos.png";
 import TrabajoTres from "../img/ConjutoTrabajosUno/TrabajoTres.png";
-
 import TrabajoCuatro from "../img/ConjuntoTrabajosDos/TrabajoUno.png";
 import TrabajoCinco from "../img/ConjuntoTrabajosDos/TrabajoDos.png";
 import TrabajoSeis from "../img/ConjuntoTrabajosDos/TrabajoTres.png";
 import  Modal  from "./Modal";
-
-import { AiFillGithub } from "react-icons/ai"; 
+import GifUno from '../Assets/Gif/GifUno.gif'
 import { TbCloudFog } from "react-icons/tb"; 
 import { FcInfo } from "react-icons/fc"; 
 import { HomeButton } from "./HomeButton";
@@ -21,10 +19,12 @@ import { DiJqueryLogo } from "react-icons/di";
 import { BsGithub } from "react-icons/bs";
 import { DiReact } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
-
-
-
-
+import GifTres from '../Assets/Gif/giftDogcat.gif'
+import GifDos from '../Assets/Gif/GifDos.gif'
+import GiftPortafolio from '../Assets/Gif/GifPortafolio.gif'
+import imgPortafolio from '../img/capPortafolio.png'
+import GiftLista from '../Assets/Gif/GiftLista.gif'
+import GiftMusica from '../Assets/Gif/Giftmusica.gif'
 
 // algunas funciones principales como el popoup, ylas ultimas tres almacenan los trabajos
 
@@ -67,7 +67,6 @@ export const Works = () => {
   const Showmodal9 = () => {
     cambiarEstadoModal9(true);
   };
-
   const Trabajos = [
     {
       titulo: "AfroBook",
@@ -89,10 +88,10 @@ export const Works = () => {
       modal: "estadomodal2",
     },
     {
-      titulo: "",
+      titulo: "Portafolio",
       clase: "work-uno",
-      descrp: "",
-      imagen: "",
+      descrp: "portafolio",
+      imagen: imgPortafolio,
       funcion: Showmodal3,
       modal: "estadomodal3"
     },
@@ -161,7 +160,7 @@ export const Works = () => {
       <div className="contentiner-img-card">
         <img
           src={Trabajos.imagen}
-          alt="Imagen-trabajos"
+          alt="future..."
           className={Trabajos.clase}
         />
       </div>
@@ -194,7 +193,7 @@ export const Works = () => {
       <div className="contentiner-img-card">
         <img
           src={trabajosDos.imagen}
-          alt="Imagen-trabajos"
+          alt="future"
           className={trabajosDos.clase}
         />
       </div>
@@ -226,7 +225,7 @@ export const Works = () => {
       <div className="contentiner-img-card">
         <img
           src={trabajosTres.imagen}
-          alt="Imagen-trabajos"
+          alt="future"
           className={trabajosTres.clase}
         />
       </div>
@@ -299,32 +298,50 @@ export const Works = () => {
             <div className="contenido-info-proyecto">
               <div className="descripcion-proyecto">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  sed ipsa iure vitae placeat officia asperiores fugit quidem
-                  eligendi quisquam.
+                  This task seeks to develop an application that simulates the
+                  basic operation of a forum, in which users can create
+                  categories of conversations, and write messages on a certain
+                  topic.
                 </p>
-                  <h2 className="tecnologies-title">Technologies</h2>
+                <h2 className="tecnologies-title">Technologies</h2>
                 <div className="tecnologias">
-                  <AiFillHtml5 className="icon-html5" title="html5"/>
-                  <DiCss3 className="icon-css3" title="css3"/>
-                  <IoLogoJavascript className="icon-javascript" title="Javascript"/>
-                  <DiPhp className="icon-php" title="Php"/>
-                  <DiJqueryLogo className="icon-jquery" title="Jquery"/>
+                  <AiFillHtml5 className="icon-html5" title="html5" />
+                  <DiCss3 className="icon-css3" title="css3" />
+                  <IoLogoJavascript
+                    className="icon-javascript"
+                    title="Javascript"
+                  />
+                  <DiPhp className="icon-php" title="Php" />
+                  <DiJqueryLogo className="icon-jquery" title="Jquery" />
                 </div>
                 <h2 className="tecnologies-title">Links</h2>
 
                 <div className="links-proyectos">
-                  <a href="https://github.com/GhassanKY/foro_Repositorio" target="_blank" rel="noreferrer">
-                    <BsGithub className="links-proyect-icon icon-github" title="View Github"/>
+                  <a
+                    href="https://github.com/GhassanKY/foro_Repositorio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsGithub
+                      className="links-proyect-icon icon-github"
+                      title="View Github"
+                    />
                   </a>
-                  <a href="https://afrodbook.000webhostapp.com/FRONTEND/index.html" target="_blank" rel="noreferrer">
-                    <TbCloudFog className="links-proyect-icon icon-web" title="visit WebSite"/>
+                  <a
+                    href="https://afrodbook.000webhostapp.com/FRONTEND/index.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TbCloudFog
+                      className="links-proyect-icon icon-web"
+                      title="visit WebSite"
+                    />
                   </a>
                 </div>
               </div>
               <div className="contenido-imagen-proyecto">
                 <img
-                  src={TrabajoUno}
+                  src={GifUno}
                   alt="proyectoForo"
                   className="proyecto-img img-foro"
                 />
@@ -342,33 +359,39 @@ export const Works = () => {
             <div className="contenido-info-proyecto">
               <div className="descripcion-proyecto">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  sed ipsa iure vitae placeat officia asperiores fugit quidem
-                  eligendi quisquam.
+                  Project proposed in "Hackaton" event, about pet adoption,
+                  created mainly with php, and javascript, seeks the basic
+                  operation of displaying a list of pets ready to be adopted
                 </p>
                 <h2 className="tecnologies-title">Technologies</h2>
                 <div className="tecnologias">
-                  <AiFillHtml5 className="icon-html5"/>
-                  <DiCss3 className="icon-css3"/>
-                  <IoLogoJavascript className="icon-javascript"/>
-                  <DiPhp className="icon-php"/>
+                  <AiFillHtml5 className="icon-html5" />
+                  <DiCss3 className="icon-css3" />
+                  <IoLogoJavascript className="icon-javascript" />
+                  <DiPhp className="icon-php" />
                 </div>
                 <h2 className="tecnologies-title">Links</h2>
 
                 <div className="links-proyectos">
-                <a href="https://github.com/sudoBuda/Equipo18-HKTON" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/sudoBuda/Equipo18-HKTON"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <BsGithub className="links-proyect-icon icon-github" />
                   </a>
-                  <a href="https://github.com/sudoBuda/Equipo18-HKTON" target="_blank" rel="noreferrer">
-
-                 
+                  <a
+                    href="https://github.com/sudoBuda/Equipo18-HKTON"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <TbCloudFog className="links-proyect-icon icon-web" />
                   </a>
                 </div>
               </div>
               <div className="contenido-imagen-proyecto">
                 <img
-                  src={TrabajoCuatro}
+                  src={GifTres}
                   alt="proyectoForo"
                   className="proyecto-img img-foro"
                 />
@@ -381,11 +404,41 @@ export const Works = () => {
         <Modal
           estado={estadoModal3}
           cambiarEstado={cambiarEstadoModal3}
-          titulo="trabajo3"
+          titulo="Portafolio"
         >
           <Contenido>
-            <h1>trabajo3</h1>
-            <p>Lorem, ipsum dolor.</p>
+            <div className="contenido-info-proyecto">
+              <div className="descripcion-proyecto">
+                <p>
+                Created with much love and care, my portfolio. where I recount some of my most important projects, and at the same time I show my skills as a developer
+                </p>
+                <h2 className="tecnologies-title">Technologies</h2>
+                <div className="tecnologias">
+                  <AiFillHtml5 className="icon-html5" />
+                  <DiCss3 className="icon-css3" />
+                  <IoLogoJavascript className="icon-javascript" />
+                  <DiReact className="icon-react" />
+                </div>
+                <h2 className="tecnologies-title">Links</h2>
+
+                <div className="links-proyectos">
+                  <a
+                    href="https://github.com/AlexisVennegas/portafolio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsGithub className="links-proyect-icon icon-github" />
+                  </a>
+                </div>
+              </div>
+              <div className="contenido-imagen-proyecto">
+                <img
+                  src={GiftPortafolio}
+                  alt="proyectoForo"
+                  className="proyecto-img img-foro"
+                />
+              </div>
+            </div>
           </Contenido>
         </Modal>
       </div>
@@ -396,186 +449,194 @@ export const Works = () => {
         titulo="TrailerPlanet"
       >
         <Contenido>
-        <div className="contenido-info-proyecto">
-              <div className="descripcion-proyecto">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  sed ipsa iure vitae placeat officia asperiores fugit quidem
-                  eligendi quisquam.
-                </p>
-                <h2 className="tecnologies-title">Technologies</h2>
+          <div className="contenido-info-proyecto">
+            <div className="descripcion-proyecto">
+              <p>
+                The main objective of this work is to consume an "API" where it
+                will show us all the information of the movies, and also to
+                implement libraries to show a small trailer or a fragment of it.
+              </p>
+              <h2 className="tecnologies-title">Technologies</h2>
 
-                <div className="tecnologias">
-                  <AiFillHtml5 className="icon-html5"/>
-                  <DiCss3 className="icon-css3"/>
-                  <IoLogoJavascript className="icon-javascript"/>
-                  <DiReact className="icon-react"/>
-                </div>
-                <h2 className="tecnologies-title">Links</h2>
-                <div className="links-proyectos">
-                <a href="https://github.com/sudoBuda/Equipo18-HKTON" target="_blank" rel="noreferrer">
-
-                    <BsGithub className="links-proyect-icon icon-github" />
-                  </a>
-                  <a href="https://github.com/sudoBuda/Equipo18-HKTON" target="_blank" rel="noreferrer">
-
-                    <TbCloudFog className="links-proyect-icon icon-web" />
-                  </a>
-                </div>
+              <div className="tecnologias">
+                <AiFillHtml5 className="icon-html5" />
+                <DiCss3 className="icon-css3" />
+                <IoLogoJavascript className="icon-javascript" />
+                <DiReact className="icon-react" />
               </div>
-              <div className="contenido-imagen-proyecto">
-                <img
-                  src={TrabajoDos}
-                  alt="proyectoForo"
-                  className="proyecto-img img-foro"
-                />
+              <h2 className="tecnologies-title">Links</h2>
+              <div className="links-proyectos">
+                <a
+                  href="https://github.com/AlexisVennegas/moviesApp"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsGithub className="links-proyect-icon icon-github" />
+                </a>
+                <a
+                  href="https://github.com/AlexisVennegas/moviesApp"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <TbCloudFog className="links-proyect-icon icon-web" />
+                </a>
               </div>
             </div>
+            <div className="contenido-imagen-proyecto">
+              <img
+                src={GifDos}
+                alt="proyectoForo"
+                className="proyecto-img img-foro"
+              />
+            </div>
+          </div>
         </Contenido>
       </Modal>
-        {/* Modal 5 */}
-        <Modal
+      {/* Modal 5 */}
+      <Modal
         estado={estadoModal5}
         cambiarEstado={cambiarEstadoModal5}
         titulo="ShoppingList: Supermarket"
       >
         <Contenido>
-        <div className="contenido-info-proyecto">
-              <div className="descripcion-proyecto">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  sed ipsa iure vitae placeat officia asperiores fugit quidem
-                  eligendi quisquam.
-                </p>
-                <h2 className="tecnologies-title">Technologies</h2>
+          <div className="contenido-info-proyecto">
+            <div className="descripcion-proyecto">
+              <p>
+              The intention with this application is to make this process easier for us, allowing us to make a more organized shopping list.
+ Using HTML, CSS and JavaScript with local storage.
+              </p>
+              <h2 className="tecnologies-title">Technologies</h2>
 
-                <div className="tecnologias">
-                  <AiFillHtml5 className="icon-html5"/>
-                  <DiCss3 className="icon-css3"/>
-                  <FaBootstrap className="icon-bots"/>
-                  <IoLogoJavascript className="icon-javascript"/>
-                </div>
-                <h2 className="tecnologies-title">Links</h2>
-                <div className="links-proyectos">
-                <a href="https://github.com/AlexisVennegas/SuperMarket" target="_blank" rel="noreferrer">
-
-
-                    <BsGithub className="links-proyect-icon icon-github" />
-                  </a>
-                  <a href="https://alexisvennegas.github.io/SuperMarket/" target="_blank" rel="noreferrer">
-                    <TbCloudFog className="links-proyect-icon icon-web" />
-                  </a>
-                </div>
+              <div className="tecnologias">
+                <AiFillHtml5 className="icon-html5" />
+                <DiCss3 className="icon-css3" />
+                <FaBootstrap className="icon-bots" />
+                <IoLogoJavascript className="icon-javascript" />
               </div>
-              <div className="contenido-imagen-proyecto">
-                <img
-                  src={TrabajoCinco}
-                  alt="proyectoForo"
-                  className="proyecto-img img-foro"
-                />
+              <h2 className="tecnologies-title">Links</h2>
+              <div className="links-proyectos">
+                <a
+                  href="https://github.com/AlexisVennegas/SuperMarket"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsGithub className="links-proyect-icon icon-github" />
+                </a>
+                <a
+                  href="https://alexisvennegas.github.io/SuperMarket/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <TbCloudFog className="links-proyect-icon icon-web" />
+                </a>
               </div>
             </div>
+            <div className="contenido-imagen-proyecto">
+              <img
+                src={GiftLista}
+                alt="proyectoForo"
+                className="proyecto-img img-foro"
+              />
+            </div>
+          </div>
         </Contenido>
       </Modal>
-        {/* Modal 6 */}
-        <Modal
+      {/* Modal 6 */}
+      <Modal
         estado={estadoModal6}
         cambiarEstado={cambiarEstadoModal6}
-        titulo="trabajo6"
+        titulo="future..."
       >
         <Contenido>
           <h1>trabajo3</h1>
           <p>Lorem, ipsum dolor.</p>
         </Contenido>
       </Modal>
-        {/* Modal 7 */}
-        <Modal
+      {/* Modal 7 */}
+      <Modal
         estado={estadoModal7}
         cambiarEstado={cambiarEstadoModal7}
         titulo="Red Social: GeeckyGram"
       >
         <Contenido>
-        <div className="contenido-info-proyecto">
-              <div className="descripcion-proyecto">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  sed ipsa iure vitae placeat officia asperiores fugit quidem
-                  eligendi quisquam.
-                </p>
-                <h2 className="tecnologies-title">Technologies</h2>
+          <div className="contenido-info-proyecto">
+            <div className="descripcion-proyecto">
+              <p>
+                The objective is to develop a social network type application
+                that is used to gossip the profiles and photos of other people.
+              </p>
+              <h2 className="tecnologies-title">Technologies</h2>
 
-                <div className="tecnologias">
-                  <AiFillHtml5 className="icon-html5"/>
-                  <DiCss3 className="icon-css3"/>
-                  <IoLogoJavascript  className="icon-javascript"/>
-                  <DiPhp className="icon-php"/>
-                  <DiJqueryLogo className="icon-jquery"/>
-                </div>
-                <h2 className="tecnologies-title">Links</h2>
-                <div className="links-proyectos">
-                  <a href="github.com">
-                    <BsGithub className="links-proyect-icon" />
-                  </a>
-                  <a href="links.com">
-                    <TbCloudFog className="links-proyect-icon" />
-                  </a>
-                </div>
+              <div className="tecnologias">
+                <AiFillHtml5 className="icon-html5" />
+                <DiCss3 className="icon-css3" />
+                <IoLogoJavascript className="icon-javascript" />
+                <DiPhp className="icon-php" />
+                <DiJqueryLogo className="icon-jquery" />
               </div>
-              <div className="contenido-imagen-proyecto">
-                <img
-                  src={TrabajoTres}
-                  alt="proyectoForo"
-                  className="proyecto-img img-foro"
-                />
+              <h2 className="tecnologies-title">Links</h2>
+              <div className="links-proyectos">
+                <a href="github.com" target="_blank" rel="noreferrer">
+                  <BsGithub className="links-proyect-icon" />
+                </a>
+                <a href="links.com" target="_blank" rel="noreferrer">
+                  <TbCloudFog className="links-proyect-icon" />
+                </a>
               </div>
             </div>
+            <div className="contenido-imagen-proyecto">
+              <img
+                src={TrabajoTres}
+                alt="proyectoForo"
+                className="proyecto-img img-foro"
+              />
+            </div>
+          </div>
         </Contenido>
       </Modal>
-        {/* Modal 8 */}
-        <Modal
+      {/* Modal 8 */}
+      <Modal
         estado={estadoModal8}
         cambiarEstado={cambiarEstadoModal8}
         titulo="Music-App"
       >
         <Contenido>
-        <div className="contenido-info-proyecto">
-              <div className="descripcion-proyecto">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  sed ipsa iure vitae placeat officia asperiores fugit quidem
-                  eligendi quisquam.
-                </p>
-                <h2 className="tecnologies-title">Technologies</h2>
+          <div className="contenido-info-proyecto">
+            <div className="descripcion-proyecto">
+              <p>
+              Application to practice, designed to facilitate the reproduction of music when you study or work
+              </p>
+              <h2 className="tecnologies-title">Technologies</h2>
 
-                <div className="tecnologias">
-                  <AiFillHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />
-                  <DiPhp />
-                  <DiJqueryLogo />
-                </div>
-                <h2 className="tecnologies-title">Links</h2>
-                <div className="links-proyectos">
-                  <a href="github.com">
-                    <BsGithub className="links-proyect-icon" />
-                  </a>
-                  <a href="links.com">
-                    <TbCloudFog className="links-proyect-icon" />
-                  </a>
-                </div>
+              <div className="tecnologias">
+                <AiFillHtml5 />
+                <DiCss3 />
+                <IoLogoJavascript />
+                <DiPhp />
+                <DiJqueryLogo />
               </div>
-              <div className="contenido-imagen-proyecto">
-                <img
-                  src={TrabajoSeis}
-                  alt="proyectoForo"
-                  className="proyecto-img img-foro"
-                />
+              <h2 className="tecnologies-title">Links</h2>
+              <div className="links-proyectos">
+                <a href="github.com">
+                  <BsGithub className="links-proyect-icon" />
+                </a>
+                <a href="links.com">
+                  <TbCloudFog className="links-proyect-icon" />
+                </a>
               </div>
             </div>
+            <div className="contenido-imagen-proyecto">
+              <img
+                src={GiftMusica}
+                alt="proyectoForo"
+                className="proyecto-img img-foro"
+              />
+            </div>
+          </div>
         </Contenido>
       </Modal>
-        {/* Modal 9 */}
-        <Modal
+      {/* Modal 9 */}
+      <Modal
         estado={estadoModal9}
         cambiarEstado={cambiarEstadoModal9}
         titulo="trabajo3"

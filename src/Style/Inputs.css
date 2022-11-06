@@ -24,7 +24,7 @@
   }
   
   .form__field:placeholder-shown ~ .form__label {
-    font-size: 17px;
+    font-size: 27px;
     cursor: text;
     top: 20px;
   }

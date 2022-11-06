@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import imagenPOrtada from "../img/alexis.png";
+import Animation from "./Animation";
 
 export const Main = () => {
   const [showText, setShowText] = useState(false);
@@ -78,7 +79,7 @@ export const Main = () => {
           </Link>
         </div>
       </div>
-      <div className="imagen-container" data-aos="fade-left"  data-aos-duration="2000">
+      <div className="imagen-container" data-aos="zoom-out"  data-aos-duration="3000">
         <img
           src={imagenPOrtada}
           alt="perfil-imagen"

@@ -173,7 +173,7 @@
     transform: translateX(-50%) rotate(45deg);
 }
 .form-container {
-    width: 60%;
+    width: 70%;
     display: flex;
     margin: 100px auto;
     align-items: center;
@@ -258,5 +258,12 @@
         background-color: #FFF;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         cursor: pointer;
+    }
+    .form-container {
+        width: 90%;
+        display: flex;
+        margin: 100px auto;
+        align-items: center;
+        justify-content: center;
     }
 }
