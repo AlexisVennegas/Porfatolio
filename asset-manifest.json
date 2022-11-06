@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.c07ae877.css",
-    "main.js": "/portafolio/static/js/main.969840a1.js",
+    "main.css": "/portafolio/static/css/main.6dc7629b.css",
+    "main.js": "/portafolio/static/js/main.f1bf5e07.js",
+    "static/media/GifDos.gif": "/portafolio/static/media/GifDos.4e7baa500aa6cc45ced9.gif",
+    "static/media/Giftmusica.gif": "/portafolio/static/media/Giftmusica.c35b6e73b6e07b2c02d2.gif",
+    "static/media/GifPortafolio.gif": "/portafolio/static/media/GifPortafolio.84747c00bc47e62518dd.gif",
     "static/media/TrabajoTres.png": "/portafolio/static/media/TrabajoTres.736a4d56e8fec88ceff4.png",
+    "static/media/GifUno.gif": "/portafolio/static/media/GifUno.7d25cb8b1394baf2e9f3.gif",
     "static/media/TrabajoDos.png": "/portafolio/static/media/TrabajoDos.7a8859ec3b99034b0722.png",
+    "static/media/GiftLista.gif": "/portafolio/static/media/GiftLista.04a7f5f9140ff4dc67be.gif",
+    "static/media/giftDogcat.gif": "/portafolio/static/media/giftDogcat.27da4e136f171188465d.gif",
     "static/media/alexis.png": "/portafolio/static/media/alexis.dadd0023f791c8ec155d.png",
     "static/media/TrabajoUno.png": "/portafolio/static/media/TrabajoUno.95b2d9740a7166332cf7.png",
+    "static/media/capPortafolio.png": "/portafolio/static/media/capPortafolio.9e1b9201cb3024b66764.png",
     "static/media/AlexisVenegas.pdf": "/portafolio/static/media/AlexisVenegas.b690aa410c97c6159b77.pdf",
     "static/media/reactimg.png": "/portafolio/static/media/reactimg.e126fa11bc5cb84a52db.png",
     "index.html": "/portafolio/index.html",
-    "main.c07ae877.css.map": "/portafolio/static/css/main.c07ae877.css.map",
-    "main.969840a1.js.map": "/portafolio/static/js/main.969840a1.js.map"
+    "main.6dc7629b.css.map": "/portafolio/static/css/main.6dc7629b.css.map",
+    "main.f1bf5e07.js.map": "/portafolio/static/js/main.f1bf5e07.js.map"
   },
   "entrypoints": [
-    "static/css/main.c07ae877.css",
-    "static/js/main.969840a1.js"
+    "static/css/main.6dc7629b.css",
+    "static/js/main.f1bf5e07.js"
   ]
 }
